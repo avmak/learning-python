@@ -1,6 +1,6 @@
 class ListInstance:
 	def __str__(self):
-		return '<Instance of %s, superclasses = [%s], address %s:\n%s>' % (
+		return '<Instance of %s, superclasses = (%s), address %s:\n%s>' % (
 							self.__class__.__name__,
 							self._superclasses(),
 							id(self),
