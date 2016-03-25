@@ -6,6 +6,7 @@ class Scene:
 
 	def action(self):
 		for x in (self.cust, self.cle, self.par):
+			print(x.__class__.__name__, ": ", end = '')
 			x.line()
 
 class Customer:
